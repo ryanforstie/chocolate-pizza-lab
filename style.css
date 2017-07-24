@@ -1,12 +1,14 @@
-body {
-  margin: 50px 270px;
+* {
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
 header {
-  border: 5px dotted gray;
-  padding: 10px;
+  margin: 0 auto;
+  border-bottom: 10px solid #ccc;
+  padding: 20px 0px;
   margin-bottom: 50px;
-  border-radius: 10px;
+  width: 901px;
 }
 header h2 {
   display: inline;
@@ -14,6 +16,11 @@ header h2 {
 }
 .imageright {
   float: right;
+}
+
+main {
+  margin: 0 auto;
+  width: 901px;
 }
 
 .box1 h1 {
@@ -29,6 +36,21 @@ header h2 {
 }
 .box3 {
   padding-top: 15px;
+  background-image: url("img/list-bg(817x277).png");
+  background-position: left top;
+  height: 300px;
+  list-style: square;
+  font-size: 30px;
+}
+.box3 img {
+  position: relative;
+}
+.box3 .half {
+  float: left;
+  width: 50%;
+}
+.box3 li {
+  display: block;
 }
 
 .box4 {
