@@ -67,3 +67,8 @@ button {
   float: right;
   padding: 10px 40px;
 }
+hr {
+  height: 10px;
+  background-color: #ccc;
+  margin: 30px 0px;
+}
